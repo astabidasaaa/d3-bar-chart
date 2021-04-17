@@ -1,0 +1,79 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem 1rem;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px 10px #444;
+}
+
+#title {
+  font-size: 2.7rem;
+  line-height: 3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#tooltip {
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9f8;
+  border-radius: 10px;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  box-shadow: 4px 4px 10px #444;
+}
+
+#author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+#author p {
+  font: 400 0.8rem ubuntu;
+  letter-spacing: 4px;
+  line-height: 1rem;
+  color: #28d7b8;
+  margin-top: 0.4rem;
+}
+#author p a:link {
+  text-decoration: none;
+  color: #28d7b8;
+}
+#author p a:visited {
+  text-decoration: none;
+  color: #28d7b8;
+}
+#author p a:hover {
+  text-decoration: none;
+  color: #d72847;
+}
+#author p a:active {
+  text-decoration: none;
+  color: #31837a;
+}
